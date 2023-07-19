@@ -161,6 +161,8 @@ ul li{
  /* the main part style */
  .funy-contain{
     text-align: center;
+    padding:50px;
+  
  }
  .funy-img-paragrahp{
     height:400px ;
@@ -174,7 +176,28 @@ ul li{
     grid-template-columns:repeat(4,1fr);
     justify-content: space-between;
  }
- 
+ .funy-img-paragrahp p{
+    margin-top: 30px;
+ }
+ .funy-contain-paragraph{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+ }
+ .funy-contain-head{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+ }
+ .heading-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+ }
+ /*the second section style start  */
  
 
 
