@@ -86,9 +86,7 @@ ul li{
 
  .banner-title{
     width:55%;
-    /* text-align: center; */
     background-image: url(img/Group\ 14.png);
-    /* text-align:left; */
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -108,12 +106,12 @@ ul li{
  
  .banner-first-head{
     color: #0B0223;
-    font-size: 48px;
+    font-size:2em;
     font-weight: 600;
     text-transform: uppercase;
  }
  .banner-second-head{
-    font-size: 95px;
+    font-size:6em;
     font-style: normal;
     font-weight: 800;
     text-transform: uppercase;
@@ -160,6 +158,22 @@ ul li{
     padding:20px;
 
  }
+ /* the main part style */
+ .funy-contain{
+    text-align: center;
+ }
+ .funy-img-paragrahp{
+    height:400px ;
+    width:300px ;
+ }
+ .funny-img-container{
+    max-width:1400px ;
+    margin:auto ;
+    display:grid;
+    gap: 20px;
+    grid-template-columns:repeat(4,1fr);
+    justify-content: space-between;
+ }
  
  
 
@@ -192,7 +206,7 @@ ul li{
 
     .banner-container{
         flex-direction:column-reverse;
-        margin-top: 40px;
+        margin: 20px;
     }
     .banner-title , .banner-button{
         width: 100%;
@@ -204,6 +218,17 @@ ul li{
     }
     .banner-paragraph{
         padding-left:50px;
+    }
+    .funny-img-container{
+         grid-template-columns:repeat(1,1fr);
+       
+    }
+    .funy-img-paragrahp{
+        margin-top: 40px;
+    }
+    .funny-img-container{
+        width: 100%;
+        padding:50px;
     }
 }
 
