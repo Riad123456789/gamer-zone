@@ -170,6 +170,7 @@ ul li{
  .funy-img-paragrahp{
     height:400px ;
     width:300px ;
+    position: relative;
  }
  .funny-img-container{
     max-width:1400px ;
@@ -200,6 +201,40 @@ ul li{
     -webkit-text-fill-color: transparent;
 
  }
+ .button{
+   height:398px ;
+   width:335px ;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+   top:0px;
+   right:-40px;
+   border-radius:15px;
+   cursor: pointer;
+   opacity:0;
+
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+  
+ }
+ .button img{
+   width: 40px;
+   height: 40px;
+   background-color: #0B0223;
+   border-radius:50%;
+ }
+ .button p{
+   margin-top: 0px;
+   color:#FF42A5 ;
+   font-size: 20px;
+   font-weight: 600;
+ }
+ .button:hover{
+   opacity:1 ;
+  
+  }
+ 
  /*the second section style start  */
  .second-section-container{
     max-width:1200px;
@@ -264,12 +299,7 @@ ul li{
    justify-content: center;
    gap:40px;
   }
-  #width{
-   width:300px;
-   height: 70px;
-   gap: 0px;
-  }
-
+ 
  .second-flex-section{
    padding-top:30px;
    display: flex;
@@ -376,6 +406,7 @@ ul li{
  .logo{
    color: #FF42A5;
  }
+
 
 
 
