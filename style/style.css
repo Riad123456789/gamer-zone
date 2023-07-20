@@ -106,7 +106,7 @@ ul li{
  
  .banner-first-head{
     color: #0B0223;
-    font-size:2em;
+    font-size:48px;
     font-weight: 600;
     text-transform: uppercase;
  }
@@ -254,14 +254,22 @@ ul li{
    max-width:1100px;
    min-height:300px;
    margin: 0 auto;
-   display: grid;
-   grid-template-columns: repeat(5,1fr);
-   align-content: center;
-   justify-content: center;
-   gap: 10px;
  }
- .third-img-section{
-   width: 200px;
+ .first-flex-section{
+   padding-top:60px;
+   display: flex;
+   justify-content: center;
+   gap:40px;
+  }
+ .second-flex-section{
+   padding-top:30px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+ }
+  
+ .third-img-section {
+   width:248px;
    height: 70px;
    display: flex;
    align-items: center;
@@ -269,21 +277,30 @@ ul li{
    gap:8px;
    background-color:white;
    border-radius: 50px;
+   border: none;
+   cursor: pointer;
 
  }
- .third-section-paragraph{
+ .third-img-section p{
    color: #0B0223;
-   font-size: 20px;
+   font-size:1rem;
    font-weight: 600;
+}
+.third-img-section:hover{
+   color:#FF42A5;
+   border:1px solid #FF42A5;
+}
+.third-img-section p:hover{
+   color:#FF42A5 ;
+}
 
- }
  /* the footer style here */
  footer{
    background-color: #0B0223;
  }
  .footer-container{
    max-width:1400px;
-   min-height:350px;
+   min-height:400px;
    padding:20px;
    margin: 0 auto;
  }
