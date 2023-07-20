@@ -41,6 +41,7 @@ ul li{
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 }
 .logo-color{
     color:#FF42A5;
@@ -142,6 +143,7 @@ ul li{
     background-color: #FF42A5;
     border-radius: 48px;
     border: none;
+    cursor: pointer;
  }
 .button-two{
     height:65px;
@@ -149,6 +151,7 @@ ul li{
     border-radius: 48px;
     background: #4EC5F7;
     border: none;
+    cursor: pointer;
  }
  .button-title{
     color: #FFF;
@@ -261,6 +264,12 @@ ul li{
    justify-content: center;
    gap:40px;
   }
+  #width{
+   width:300px;
+   height: 70px;
+   gap: 0px;
+  }
+
  .second-flex-section{
    padding-top:30px;
    display: flex;
